@@ -5,11 +5,18 @@ VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E816C6E-0FFB-4112-A823-8DF5DA7C24A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HykeIt.Server", "src\Server\HykeIt.Server.csproj", "{25F4DC22-3B3A-4145-AD72-25D781D682E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HykeIt.Server", "src\Server\HykeIt.Server.csproj", "{25F4DC22-3B3A-4145-AD72-25D781D682E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HykeIt.Client", "src\Client\HykeIt.Client.csproj", "{1CDD3E25-7DAE-4E3A-9938-419E56C43C8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HykeIt.Client", "src\Client\HykeIt.Client.csproj", "{1CDD3E25-7DAE-4E3A-9938-419E56C43C8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HykeIt.Shared", "src\Shared\HykeIt.Shared.csproj", "{EF6FC600-3B36-484D-A787-9B2A796DDE6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HykeIt.Shared", "src\Shared\HykeIt.Shared.csproj", "{EF6FC600-3B36-484D-A787-9B2A796DDE6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A838147-9E9F-47C9-9D4F-F79E5D076498}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
