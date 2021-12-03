@@ -1,8 +1,7 @@
-using HykeIt.Shared;
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace HykeIt.Server.Controllers
+namespace HykeIt.Controllers
 {
     [ApiController]
     [Route("[controller]")]

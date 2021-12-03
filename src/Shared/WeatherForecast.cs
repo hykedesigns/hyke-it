@@ -1,4 +1,4 @@
-namespace HykeIt.Shared
+namespace HykeIt
 {
     public class WeatherForecast
     {
